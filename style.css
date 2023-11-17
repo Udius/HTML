@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #44444;
+}
+
+h1 {
+  margin: 0;
+  margin-left: 6px;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  font-size: 49px;
+  line-height: 64px;
+  color: rgb(255, 190, 190);
+}
+
+h2 {
+  margin: 0 auto;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  font-size: 28px;
+  line-height: 36px;
+}
+
+h3 {
+  margin: 5px auto;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+h6 {
+  margin: 2px auto;
+  margin-left: 10px;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: underline;
+}
+
+.head-container {
+  width: 600px;
+  margin: 0 auto;
+  padding: 5px 10px;
+  padding-bottom: 15px;
+  background-color: rgb(0, 0, 0, 0.6);
+  border-radius: 20px;
+  box-shadow: 0 0 20px black;
+}
+
+.site-header {
+  min-width: 550px;
+  height: 220px;
+  margin-bottom: 80px;
+  padding-top: 60px;
+  background: no-repeat center url("img/loc.jpg");
+  background-size: cover;
+  color: white;
+  box-shadow: 0 0 20px 8px black;
+}
+
+.searcher {
+  width: 1200px;
+  height: 140px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  background-color: rgba(30, 30, 60);
+  border-radius: 10px;
+}
+
+.row {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding-top: 15px;
+  color: white;
+}
+
+.containerH1 {
+  width: 300px;
+  margin: 0 auto;
+  padding-left: 40px;
+  font-size: 20px;
+  color: black
+}
+
+.searchBox {
+  width: 260px;
+  margin: 0 auto;
+}
+
+.searchBox input {
+  margin: 0 auto;
+  width: 260px;
+  height: 41px;
+  font-size: 16px;
+  padding-left: 10px;
+  border-radius: 8px;
+  background: white;
+  color: rgb(120, 120, 120);
+}
+
+.dateBox {
+  width: 160px;
+  margin: 0 auto;
+}
+
+.dateBox input {
+  margin: 0 auto;
+  width: 160px;
+  height: 41px;
+  font-size: 16px;
+  padding-left: 10px;
+  border-radius: 8px;
+  background: white;
+  color: rgb(120, 120, 120);
+}
+
+.button {
+  width: 100px;
+  height: 45px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.button input {
+  width: 100px;
+  height: 45px;
+  margin: 0 auto;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: rgb(220, 20, 20);
+  border-radius: 8px;
+}
