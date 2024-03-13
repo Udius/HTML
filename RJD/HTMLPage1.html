@@ -31,17 +31,33 @@
 
                 <div class="dateBox">
                     <h3>Дата туда</h3>
-                    <input type="date" name="dtTo" value="2023-09-15" min="2023-09-15">
+                    <input type="date" name="dtTo">
+                    <script>
+                        const dtTo = document.searchLine.dtTo;
+                        actualDate = new Date().toISOString().substring(0, 10);
+                        dtTo.value = actualDate;
+                        dtTo.min = actualDate;
+                    </script>
                 </div>
+
+                <a class="button">
+                    <input type="button" name="btnSwap" value="">
+                </a>
 
                 <div class="dateBox">
                     <h3>Дата обратно</h3>
-                    <input type="date" name="dtFrom" value="2023-09-16" min="2023-09-16">
+                    <input type="date" name="dtFrom">
+                    <script>
+                        const dtFrom = document.searchLine.dtFrom;
+                        actualDate = new Date().toISOString().substring(0, 10);
+                        dtFrom.value = actualDate;
+                        dtFrom.min = actualDate;
+                    </script>
                 </div>
 
-                <div class="button">
+                <b class="button">
                     <input type="button" name="btn1" value="Найти">
-                </div>
+                </b>
 
             </div>
         </div>
