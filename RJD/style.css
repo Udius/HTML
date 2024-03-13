@@ -61,7 +61,7 @@ h6 {
 }
 
 .searcher {
-    width: 1200px;
+    width: 1250px;
     height: 140px;
     margin: 0 auto;
     margin-bottom: 80px;
@@ -119,13 +119,21 @@ h6 {
     }
 
 .button {
-    width: 100px;
-    height: 45px;
     margin: 0 auto;
     padding-top: 30px;
 }
 
-    .button input {
+    a.button input {
+        width: 45px;
+        height: 45px;
+        margin: 0 auto;
+        background-color: white;
+        border-radius: 8px;
+        margin-left: 15px;
+        background-image: url("img/swap.png")
+    }
+
+    b.button input {
         width: 100px;
         height: 45px;
         margin: 0 auto;
